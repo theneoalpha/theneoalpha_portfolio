@@ -1,0 +1,597 @@
+body{
+    background: #eff4fd;
+    overflow-x:hidden;
+   
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap');
+
+
+
+.skill h2{
+    font-family: 'Oswald', sans-serif;
+}
+.myskillanimat {
+    position: absolute
+    
+    ;
+    margin-top: 6rem;
+  }
+  
+  .progress {
+    background:  #ffcf2e;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 0.4rem;
+    margin: -4rem 48rem;
+    padding: 6px 0;
+    width: 19rem;
+  }
+  
+ 
+  .firstanimation {
+    animation: load1 10s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    animation-delay: 2s;
+    border-radius: 100px;
+    background: black;
+    height: 0.4rem;
+    width: 0;}
+    .secondanimation {
+    animation: load2 10s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    animation-delay: 2s;
+    border-radius: 100px;
+    background: black;
+    height: 0.4rem;
+    width: 0;}
+    .thirdanimation {
+    animation: load3 10s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    animation-delay: 2s;
+    border-radius: 100px;
+    background: black;
+    height: 0.4rem;
+    width: 0;}
+ 
+  
+    @keyframes load1 {
+        0% { width: 0; }
+        100% { width: 58%; }
+      }
+
+      .navbar-toggler{
+        color:#eff4fd;
+      }
+      .navbar-toggler-icon{
+        filter: invert(1);
+      }
+      .nav-link{
+        color: #eff4fd;
+      }
+  
+    @keyframes load2 {
+        0% { width: 0; }
+        100% { width: 78%; }
+      }
+  
+  
+    @keyframes load3 {
+        0% { width: 0; }
+        100% { width: 48%; }
+      }
+  
+.first{
+    top: 3rem;
+}
+.third{
+    top: 19rem;
+}
+.second{
+    top: 11rem;
+}
+
+
+
+
+.detail {
+    padding-top: 8%;
+    padding-left: 8%;
+    background: purple;
+}
+
+.detail h1 {
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+span{
+    font-size: 50px;
+}
+span {
+    color: #ffcf2e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.detail h2 {
+    color: #eff4fd;
+    font-size: 38px;
+    opacity: 0.4;
+    
+    font-family: 'Roboto', sans-serif;
+    top: 150px;
+}
+
+
+.detail a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+#footer{
+    background-color: purple;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 1.3rem;
+    margin-top: auto;
+    
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+.progress{
+    position: relative;
+}
+.progress-bar{
+    position: absolute;
+}
+.myskillanimation{
+    width: 100%;
+}
+.image {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+.image img:hover.shape {
+
+    bottom: 40px;
+
+
+}
+
+.image img:hover.boy {
+
+    left: 45%;
+
+
+}
+
+
+.aboutimage {
+    position: absolute;
+    right: 50%;
+    height: 425px;
+    width: 871px;
+    top: 17px;
+    left: -269px;
+}
+
+
+.secondpage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    display: flex;
+}
+
+.shape2 {
+    height: 380px;
+    width: 35%;
+    position: absolute;
+}
+
+.box {
+
+    position: absolute;
+    left: 60%;
+    top: 30vh;
+}
+
+.thirdpage h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.skillcontent {
+    display: flex;
+    position: absolute;
+    top: 65px;
+
+
+}
+
+
+.skills p {
+    margin-top: 34px;
+}
+
+.skills h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.videoimage img {
+    position: relative;
+    height: 130px;
+    border-radius: 5600px;
+}
+
+
+
+.thirdpage {
+    position: relative;
+    width: 100%;
+    height: 64vh;
+    background: #eff4fd;
+    margin: auto;
+
+}
+
+.skilllist {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    position: relative;
+    background: #eff4fd;
+    top: 0px;
+    margin-top: 45px;
+    width: 50%;
+
+
+
+}
+
+.skilllist h2 {
+    margin: 12px 125px;
+    padding: 6px 12px;
+    width: 800px;
+
+    
+
+}
+.myskills {
+    display: flex;
+    background: #eff4fd;
+
+    position: relative;
+    height: 335px;
+
+
+}
+
+.videoimage img:hover {
+    border: 3px solid #ffcf2e;
+}
+
+
+.graphicimage img {
+    height: 130px;
+    border-radius: 5600px;
+    display: block;
+    margin: auto;
+    border: 3px solid #ffcf2e;
+}
+
+.webimage img {
+    height: 130px;
+    border-radius: 5600px;
+    display: block;
+    margin: auto;
+    border: 3px solid #ffcf2e;
+}
+
+.videoimage img {
+    height: 130px;
+    border-radius: 5600px;
+    display: block;
+    margin: auto;
+    border: 3px solid #ffcf2e;
+
+}
+
+.skills {
+   
+
+    width: 33%;
+
+}
+
+
+
+.skills p {
+    width: 100%;
+    left: 10%;
+    text-align: center;
+}
+
+.social{
+    display: none;
+}
+  
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+  
+.social{
+    display: block;
+
+}
+.social a{
+    margin: 1.7rem;
+    color: white;
+}
+ 
+
+  
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px)  {
+    
+    .image img{
+        height: 80%;
+    }
+    
+
+
+
+@media screen and (max-width: 468px)  {
+    
+   
+  
+  }
+  
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
+  
+  
+  
+  .navigation{
+      left: 3rem;
+      top: 6rem;
+      
+  }
+  #menu{
+      background: #05010514;
+      display: flex;
+
+
+      color: #ffcf2e;
+  }
+  nav ul{
+      display: none;
+  }
+  nav ul li{
+    margin: 16px 11px;
+  } 
+.myskills{
+    top: 36vh;
+}
+
+.hero{
+    overflow-x: hidden;
+}
+.wrapper{
+    position: absolute;
+    margin-left: 15vh;
+    margin-top: 0;
+}.detail{
+    margin-top: 15vh;
+}
+.image img {
+    height: 45vh;
+    width: 49vh;
+}
+.detail h2{
+    font-size: 1.4rem;
+}.detail h1 {
+    font-size: 2.2rem;
+    font-family: 'Baloo Bhaijaan 2';
+}span {
+    font-size: 2.2rem;
+}
+.image{
+    right: 4rem;
+    top: 20vh;
+}
+.myskills{
+    
+    flex-direction: column;
+}
+.skilllist h2{
+    padding: 51px 12px;
+    width: 100%;
+    margin: 12px 0px;
+    text-align: center;
+}.skilllist{
+    width: 100%;
+}
+}
+.skills{
+    width: 80%;
+    margin: auto;
+}
+#footer {
+    margin-top: auto;
+    font-size: 0.8rem;
+}
+@media  screen and (max-width:768px){
+    .navbar-toggler-icon{
+        margin-left: 0px;
+    }
+    .first{
+    top: 1rem;
+}
+.second{
+    top: 8rem;
+}
+.third{
+    top: 17rem;
+}
+.progress{
+    margin: 2rem 2rem;
+}
+.skillcontent{
+    flex-direction: column;
+}
+.image img{
+    width: 35vh;
+}
+.detail{
+    background-color: purple;
+    margin-top: 0;
+    height: 84vh;
+    margin-left: 0vh;
+    padding-top: 9vh;
+}
+.image{
+    top: -32vh;
+
+    right: -10.8rem;
+}
+
+.detail h1,span{
+    margin-left: 2vh;
+    font-size: 1.4rem;
+}
+.detail h2{
+    margin-left: 2vh;
+}
+.myskills{
+    top: -22vh;
+}
+.skilllist {
+    margin-top: 0;
+}
+.detail a{
+    padding: 4px 9px;
+    margin-left: -1rem;
+} .image{
+    position: relative;
+}
+.thirdpage{
+    top: 21vh;
+}
+
+nav ul li{
+    margin: 5px 11px;
+}
+
+}
+ 
+  @media  screen and (max-width:417px) and (min-width:410px){.skilllist { height: 404px;}}@media  screen and (max-width:413px){#menu{width: 422;}.skilllist {height: 416px;}}@media  screen and (max-width:376px) and (min-width: 365px){.skilllist {height: 404px;}}@media  screen and (max-width:362px){.skilllist {height: 400px;}#menuToggle a {padding: -0.3000000000000007rem;}}  @media  screen and (max-width:394px) and (min-width:390px){.skilllist {height: 400px;}}
+  @media  screen and (max-width:417px) {
+      .myskills {
+          top: -33vh;
+      }
+    .thirdpage{
+        top: 0;
+        height: 135vh;
+    }
+    .image{
+        right: -8.4rem;
+        width: 47%;
+        height: 85%;
+
+    }
+    
+    }
+    @media  screen and (max-width:413px) {.image{    right: -8.1rem}}
+    @media  screen and (max-width:410px) {.image{right: -10.38rem; top: -43vh;}}
+  @media  screen and (max-width:390px) {
+      .myskills {
+          top: -22vh;
+          height: 49vh;
+      }.thirdpage{
+    top: 21vh;
+    height: 155vh;
+}
+.image {
+    width: 50%;
+    height: 80%;
+    right: -8.9rem;
+    top: -32vh;
+
+;
+    
+}
+      
+  }
+  @media  screen and (max-width:395px) {.image{    right: -7.9rem; top: -32vh;}}
+  @media  screen and (max-width:380px) {
+    .image {
+        
+        right: -8.9rem;
+        
+    }
+    #footer{
+        margin-top: 20vh;
+    }
+  }
+  @media  screen and (max-width:370px) {.image{right: -7.5rem; top: -24vh;}}
+  
+  

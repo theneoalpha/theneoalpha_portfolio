@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap');
+
+
+.typing-demo {
+    width: 184px;
+    animation: typing 2s steps(12), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #eff4fd;
+    font-family: 'Macondo', cursive;
+    overflow: hidden;
+    border-right: 3px solid;
+  left: 0px;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+.title{
+    width: 80%;
+}
+.nav-item{
+    font-size: 1rem;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    background-color: purple;
+    color: #eff4fd;
+}
+
+@media screen and (max-width: 468px) {
+    .typing-demo{
+        font-size: 1.8rem;
+        width: 10rem;
+    }
+}@media screen and (max-width: 768px) {
+.title{
+width: 60%;
+}
+
+nav ul li{
+    margin: 5px 11px;
+}
+
+
+}

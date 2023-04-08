@@ -1,0 +1,50 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+.card{
+    width: 18rem;margin: auto;
+    margin: 3rem 4rem;
+    box-shadow: 0 20px 25px -5px rgba(0 0 0 / .10),
+    0 10px 10px -5px rgba(0 0 0 / .04);
+}
+.card img{
+    height: 23vh;
+   
+    
+}
+.skillTitle{margin-top: 3rem;
+text-align: center;
+font-family: 'Akshar', sans-serif;
+}
+.skillFirst,.skillSecond{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+    
+}
+.thirdone{
+
+  margin:  auto;
+  width: 28rem;
+
+}
+@media  screen and (max-width:768px) {
+
+.skillFirst,.skillSecond{
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.card{
+    margin: 3rem 0;
+}
+.thirdone{
+    margin: auto;
+    width: 80%;
+
+}
+
+}
