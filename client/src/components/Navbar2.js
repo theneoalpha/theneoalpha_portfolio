@@ -37,7 +37,7 @@ export default function Navbar2() {
         </li>
         <li className="social"> <a href="https://www.instagram.com/theneoalpha/" ><InstagramIcon/></a>
         <a href="https://github.com/theneoalpha" ><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/vikash-kaushik-08a688240/" ><LinkedInIcon/></a>
+        <a href="https://www.linkedin.com/in/theneoalpha/" ><LinkedInIcon/></a>
         <a href="https://www.youtube.com/c/TheNeoAlpha"><YouTubeIcon/></a>
        
         </li>
