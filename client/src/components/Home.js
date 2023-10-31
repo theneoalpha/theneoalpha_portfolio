@@ -1,12 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
 import "../components/assets/home.css";
-import Navbar2 from './Navbar2';
-
+import Navbar2 from "./Navbar2";
+import Github from "./Github";
+import Techstack from "./Techstack";
 export default function Home() {
   return (
     <>
-        <Navbar2/>
+      <Navbar2 />
       <div className="detail">
         <h2> Wants to Hire Someone</h2>
         <h2>Why not me</h2>
@@ -30,11 +31,12 @@ export default function Home() {
           />
         </div>
       </div>
+      
       <div className="myskills">
         <div className="skilllist">
-          <h2>Web Developer</h2>
-          <h2>Video Editor</h2>
-          <h2>Graphic Designer</h2>
+          <h2>MERN-Stack</h2>
+          <h2>React</h2>
+          <h2>Flutter</h2>
         </div>
         <div className="myskillanimat">
           <div className="progress first">
@@ -48,6 +50,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Github />
+      {/* <Techstack/> */}
       <div className="thirdpage">
         <div className="skill">
           <h2>My Skills</h2>
@@ -103,8 +107,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+       
       </div>
-      <Footer/>
+      
+      <Footer />
     </>
   );
 }

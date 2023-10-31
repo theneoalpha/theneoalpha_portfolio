@@ -271,7 +271,7 @@ span {
 .skilllist {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 300px;
     position: relative;
     background: #eff4fd;
     top: 0px;
@@ -348,7 +348,7 @@ span {
 .social{
     display: none;
 }
-  
+
 
 
 
