@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import "../components/assets/home.css";
 import Navbar2 from "./Navbar2";
 import Github from "./Github";
+import About  from './About';
 import Techstack from "./Techstack";
 export default function Home() {
   return (
@@ -109,7 +110,7 @@ export default function Home() {
         </div>
        
       </div>
-      
+      <About/>
       <Footer />
     </>
   );
