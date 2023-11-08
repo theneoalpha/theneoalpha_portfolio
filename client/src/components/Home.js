@@ -18,7 +18,13 @@ export default function Home() {
         <span>Kaushik</span>
         <ul>
           {" "}
-          <a href="/contact">Hire Me</a>
+          <a
+        href="https://drive.google.com/drive/u/1/folders/1IGH0PRbSSnA6yJAL1AItOMkfy7kGk42V"
+        className="cvbutton"
+       
+      >
+        CV/Resume
+      </a>
         </ul>
 
         <div className="image">
@@ -34,11 +40,14 @@ export default function Home() {
           />
         </div>
       </div>
-      
+      <hr/>
      <Myskills/>
       <Github />
+      <hr/>
  <Projects/>
+ <hr/>
  <About/>
+ <hr/>
       {/* <Techstack/> */}
       <div className="thirdpage">
         <div className="skill">

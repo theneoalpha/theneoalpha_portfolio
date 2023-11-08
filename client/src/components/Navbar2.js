@@ -32,6 +32,9 @@ export default function Navbar2() {
         <li className="nav-item mx-3">
           <Link className="nav-link" to="/contact">Contact</Link>
         </li>
+        <li className="nav-item mx-3">
+          <Link className="nav-link" to="/about">About</Link>
+        </li>
          <li className="nav-item  mx-3">
           <a href="https://ollymods.blogspot.com/" className="nav-link" target="_blank">Blog</a>
         </li>

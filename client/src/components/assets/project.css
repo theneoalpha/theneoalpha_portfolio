@@ -2,7 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+.link{
 
+        background: #212121;
+        padding: 7px 13px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        display: inline-block;
+      
+        border-radius: 87px;
+    
+}
 .card{
     width: 18rem;
     margin: 3rem auto;
@@ -14,8 +25,10 @@
    
     
 }
-
-.projectTitle{margin-top: 3rem;
+.project{
+    background: #eff4fd;
+}
+.projectTitle{
 text-align: center;
 font-family: 'Oswald', sans-serif;
 font-weight: bold;

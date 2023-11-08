@@ -46,8 +46,8 @@ export default function About() {
       </div>
       <a
         href="https://drive.google.com/drive/u/1/folders/1IGH0PRbSSnA6yJAL1AItOMkfy7kGk42V"
-        className="btn"
-        target="_blank"
+        className="cvbutton"
+       
       >
         Download Resume
       </a>
