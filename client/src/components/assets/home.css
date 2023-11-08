@@ -140,10 +140,18 @@ span {
     margin: 30px 0;
     border-radius: 8px;
 }
+.footerSocial{
+    display: block;
+
+}
+.footerSocial a{
+    margin: 1.7rem;
+    color: white;
+}
 #footer{
     background-color: purple;
     width: 100%;
-    height: 40px;
+    /* height: 40px; */
     color: white;
     text-align: center;
     padding-top: 8px;
