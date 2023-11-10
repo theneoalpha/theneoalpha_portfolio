@@ -296,7 +296,7 @@ form textarea {
   margin-bottom: 1.6rem;
 }
 .footer-social a i{
-  color: rgb(10, 26, 208);
+  color: purple;
   font-size: 25px;
   margin-left: 10px;
   text-align: center;
@@ -308,7 +308,7 @@ form textarea {
 }
 .copyright {
   padding: 20px;
-  background: var(--main-color);
+  background: purple;
   text-align: center;
   color: #fff;
 }
