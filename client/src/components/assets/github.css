@@ -1,3 +1,6 @@
 .github {
     background: #eff4fd;
 }
+.row{
+    --bs-gutter-x: 0rem;
+}

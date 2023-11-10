@@ -12,10 +12,11 @@ export default function Home() {
     <>
       <Navbar2 />
       <div className="detail">
-        <h2> Wants to Hire Someone</h2>
-        <h2>Why not me</h2>
-        <h1>Hey! This is Vikash</h1>
-        <span>Kaushik</span>
+        <h1> Hello, this is Vikash <span>Kaushik</span> </h1>   
+      
+        <h3>An Aspiring Software Developer</h3>
+        <h1>🚀 </h1>
+        
         <ul>
           {" "}
           <a
@@ -23,7 +24,7 @@ export default function Home() {
         className="cvbutton"
        
       >
-        CV/Resume
+        See MyProjects
       </a>
         </ul>
 

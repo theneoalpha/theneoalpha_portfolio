@@ -109,7 +109,7 @@ body{
 }
 
 .detail h1 {
-    font-size: 50px;
+    /* font-size: 50px; */
     font-family: 'Open Sans', sans-serif;
 }
 span{
@@ -127,6 +127,9 @@ span {
     
     font-family: 'Roboto', sans-serif;
     top: 150px;
+}
+.detail h3{
+    color: grey;
 }
 
 
@@ -495,6 +498,11 @@ span {
     .first{
     top: 1rem;
 }
+.detail ul{
+    
+        padding-left: 1rem;
+    
+}
 .second{
     top: 8rem;
 }
@@ -524,7 +532,7 @@ span {
 }
 
 .detail h1,span{
-    margin-left: 2vh;
+    /* margin-left: 2vh; */
     font-size: 1.4rem;
 }
 .detail h2{
@@ -551,7 +559,20 @@ nav ul li{
 }
 
 }
- 
+
+@media  screen and (max-width:432px) and (min-width:420px){
+   
+    .image {
+        top: -21vh;
+        right: -8.8rem;
+    }
+}
+@media  screen and (max-width:425px) and (min-width:400px){
+    .image {
+        top: -27vh;
+        right: -10.8rem;
+    }
+}
   @media  screen and (max-width:417px) and (min-width:410px){.skilllist { height: 404px;}}@media  screen and (max-width:413px){#menu{width: 422;}.skilllist {height: 416px;}}@media  screen and (max-width:376px) and (min-width: 365px){.skilllist {height: 404px;}}@media  screen and (max-width:362px){.skilllist {height: 400px;}#menuToggle a {padding: -0.3000000000000007rem;}}  @media  screen and (max-width:394px) and (min-width:390px){.skilllist {height: 400px;}}
   @media  screen and (max-width:417px) {
       .myskills {

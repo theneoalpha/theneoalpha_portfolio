@@ -128,7 +128,7 @@ body {
 }
 .bars-box h3,
 span {
-  font-size: 1.1rem;
+  font-size: 2.2rem;
   font-weight: 500;
 }
 .light-bar {
@@ -366,9 +366,21 @@ form textarea {
     grid-template-columns: 1fr;
   }
   .about-img {
+    
     display: flex;
     justify-content: center;
   }
+  .about-text p {
+    width: 22rem;
+  
+}
+.info-box span a{
+  width: 25rem;
+}
+.bars-box h3, span {
+  font-size: 1rem; 
+  font-weight: 500;
+}
   .skills-container {
     grid-template-columns: 1fr;
   }
@@ -493,6 +505,9 @@ main.row1{
   }
   .row1 .col1:nth :nth-child(2){
       margin-top: 30px;
+  }
+  .detail span{
+    font-size: 1.4rem;
   }
 }
 
