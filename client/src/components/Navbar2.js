@@ -26,21 +26,22 @@ export default function Navbar2() {
           <Link className="nav-link " aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item mx-3">
+          <Link className="nav-link" to="/project">Projects</Link>
+        </li>
+        <li className="nav-item mx-3">
           <Link className="nav-link" to="/skills">Skills</Link>
         </li>
         
         <li className="nav-item mx-3">
           <Link className="nav-link" to="/contact">Contact</Link>
         </li>
-        <li className="nav-item mx-3">
-          <Link className="nav-link" to="/about">About</Link>
-        </li>
+       
          <li className="nav-item  mx-3">
           <a href="https://ollymods.blogspot.com/" className="nav-link" target="_blank">Blog</a>
         </li>
         <li className="social"> <a href="https://www.instagram.com/theneoalpha/" ><InstagramIcon/></a>
         <a href="https://github.com/theneoalpha" ><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/theneoalpha/" ><LinkedInIcon/></a>
+        <a href="https://www.linkedin.com/in/vikashkaushik79/" ><LinkedInIcon/></a>
         <a href="https://www.youtube.com/c/TheNeoAlpha"><YouTubeIcon/></a>
        
         </li>

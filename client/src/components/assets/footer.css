@@ -10,7 +10,7 @@
     margin-bottom: 1.6rem;
   }
   .footer-social a i{
-    color: purple;
+     color: purple; 
     font-size: 25px;
     margin-left: 10px;
     text-align: center;
@@ -34,6 +34,20 @@
         text-decoration: underline;
     
   }
-  .MuiSvgIcon-root{
+  .footer-social a{
     color: purple;
+  } 
+  .footer_page{
+    position: unset;
   }
+
+  @media  screen and (max-width:768px){
+    .footer h2 {
+      font-size: 1.2rem;
+      
+  }
+  .footer_page{
+    position: relative;
+  }
+  }
+  

@@ -11,10 +11,13 @@ import file from "../images/file.png";
 import { FaGithub} from "react-icons/fa";
 
 import {FaLink} from "react-icons/fa";
+import Navbar2 from './Navbar2';
+import Footer from './Footer';
 
 export default function Projects() {
   return (
     <>
+    <Navbar2/>
     <div className='project'>
     <h1 className="projectTitle">Projects</h1>
       <div className="projectFirst">
@@ -113,6 +116,7 @@ export default function Projects() {
 
       </div>
       </div>
+      <Footer/>
     </>
   )
 }

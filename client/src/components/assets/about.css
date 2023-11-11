@@ -291,10 +291,7 @@ form textarea {
   background: #ebebeb;
   color: #000;
 }
-.footer h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1.6rem;
-}
+
 .footer-social a i{
   color: purple;
   font-size: 25px;
@@ -370,10 +367,7 @@ form textarea {
     display: flex;
     justify-content: center;
   }
-  .about-text p {
-    width: 22rem;
-  
-}
+
 .info-box span a{
   width: 25rem;
 }

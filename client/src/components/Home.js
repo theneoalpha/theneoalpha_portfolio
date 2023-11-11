@@ -4,9 +4,10 @@ import "../components/assets/home.css";
 import Navbar2 from "./Navbar2";
 import Github from "./Github";
 import About  from './About';
-import Techstack from "./Techstack";
+
+import { Link } from "react-router-dom";
 import Myskills from "./Myskills";
-import Projects from "./Projects";
+
 export default function Home() {
   return (
     <>
@@ -19,13 +20,7 @@ export default function Home() {
         
         <ul>
           {" "}
-          <a
-        href="https://drive.google.com/drive/u/1/folders/1IGH0PRbSSnA6yJAL1AItOMkfy7kGk42V"
-        className="cvbutton"
-       
-      >
-        See MyProjects
-      </a>
+          <Link className="nav-link" to="/project">See My Projects</Link>
         </ul>
 
         <div className="image">
@@ -44,8 +39,8 @@ export default function Home() {
       <hr/>
      <Myskills/>
       <Github />
-      <hr/>
- <Projects/>
+      
+ 
  <hr/>
  <About/>
  <hr/>

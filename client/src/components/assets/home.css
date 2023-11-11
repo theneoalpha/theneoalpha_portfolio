@@ -551,7 +551,8 @@ span {
     position: relative;
 }
 .thirdpage{
-    top: 21vh;
+    
+    height: 146vh;
 }
 
 nav ul li{
@@ -597,7 +598,7 @@ nav ul li{
           top: -22vh;
           height: 49vh;
       }.thirdpage{
-    top: 21vh;
+    
     height: 155vh;
 }
 .image {

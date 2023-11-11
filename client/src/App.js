@@ -14,7 +14,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import About from './components/About';
+
+import Projects from './components/Projects';
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
             <Route path="/skills" element={<Skill />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/thankyou" element={<Thankyou />} />
-            <Route path="/about" element={<About/>} />
+            <Route path="/project" element={<Projects/>} />
           </Routes>
         
         </BrowserRouter>
