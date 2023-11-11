@@ -33,42 +33,11 @@ export default function Projects() {
             <a href="https://github.com/theneoalpha/bear_recogniser"  className="link">
             <FaGithub/>
             </a>
-           
+            <span className='techstack'>#Dart #Flutter #Tensorflow</span>
             
           </div>
         </div>
-
         <div className="card">
-          <img
-            src={carbon}
-            alt="..."
-          />
-          <div className="card-body">
-            <h5 className="card-title">Carbon Footprint</h5>
-          
-            <a href="https://github.com/theneoalpha/carbon_footprint"  className="link">
-            <FaGithub/>
-            </a>
-          </div>
-        </div>
-
-        <div className="card">
-          <img
-            src={event}
-            alt="..."
-          />
-          <div className="card-body">
-            <h5 className="card-title">Event Organiser</h5>
-          
-            <a href="https://github.com/theneoalpha/carbon_footprint"  className="link">
-            <FaGithub/>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="projectSecond">
-      <div className="card">
           <img
             src={campus}
             alt="..."
@@ -82,6 +51,40 @@ export default function Projects() {
             <a href="https://campusdiary.vercel.app/"  className="link">
             < FaLink/>
             </a>
+            <span className='techstack'>#MERN #ReactJs #Web</span>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            src={carbon}
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Carbon Footprint</h5>
+          
+            <a href="https://github.com/theneoalpha/carbon_footprint"  className="link">
+            <FaGithub/>
+            </a>
+            <span className='techstack'>#MERN #ReactJs #Web</span>
+          </div>
+        </div>
+
+        
+      </div>
+
+      <div className="projectSecond">
+      <div className="card">
+          <img
+            src={event}
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Event Organiser</h5>
+          
+            <a href="https://github.com/theneoalpha/event_organizer"  className="link">
+            <FaGithub/>
+            </a>
+            <span className='techstack'>#Web3.0 #Solidity</span>
           </div>
         </div>
         <div className="card">
@@ -93,8 +96,10 @@ export default function Projects() {
             <h5 className="card-title">Text to QR Code Generator</h5>
           
             <a href="https://github.com/theneoalpha/qrcodegen"  className="link">
-            <FaGithub/>
+            <FaGithub/> 
             </a>
+            
+            <span className='techstack'>#HTML , #JavaScript</span>
           </div>
         </div>
 
@@ -109,6 +114,7 @@ export default function Projects() {
             <a href="https://github.com/theneoalpha/filesharing"  className="link">
             <FaGithub/>
             </a>
+            <span className='techstack'>#MERN #ReactJs #Web</span>
           </div>
         </div>
 
