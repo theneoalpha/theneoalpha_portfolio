@@ -30,6 +30,7 @@
 }
 .title{
     width: 80%;
+    text-decoration: none;
 }
 .nav-item{
     font-size: 1rem;

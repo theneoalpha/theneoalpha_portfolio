@@ -1,6 +1,6 @@
 import React from 'react';
 import "../components/assets/project.css";
-import bear from "../images/bear-recogniser.png";
+import bear from "../images/bear-recogniser.jpg";
 import carbon from "../images/carbon.png";
 import campus from "../images/campus.png";
 import event from "../images/event.png";
@@ -22,12 +22,17 @@ export default function Projects() {
     <h1 className="projectTitle">Projects</h1>
       <div className="projectFirst">
         <div className="card">
-          <img
+         
+        <a href="https://github.com/theneoalpha/bear_recogniser"  className="link">
+        <img
             src={bear}
             className="card-img-top"
             alt="..."
           />
+            </a>
+          
           <div className="card-body">
+            
             <h5 className="card-title">Bear Recogniser</h5>
             
             <a href="https://github.com/theneoalpha/bear_recogniser"  className="link">
@@ -38,10 +43,13 @@ export default function Projects() {
           </div>
         </div>
         <div className="card">
-          <img
+        <a href="https://github.com/theneoalpha/campusdiary"  className="link">
+         <img
             src={campus}
             alt="..."
           />
+            </a>
+          
           <div className="card-body">
             <h5 className="card-title">Campus-Diary</h5>
           
@@ -55,10 +63,15 @@ export default function Projects() {
           </div>
         </div>
         <div className="card">
-          <img
+
+        <a href="https://github.com/theneoalpha/carbon_footprint"  className="link">
+          
+        <img
             src={carbon}
             alt="..."
           />
+            </a>
+          
           <div className="card-body">
             <h5 className="card-title">Carbon Footprint</h5>
           
@@ -74,10 +87,12 @@ export default function Projects() {
 
       <div className="projectSecond">
       <div className="card">
+      <a href="https://github.com/theneoalpha/event_organizer"  className="link">
           <img
             src={event}
             alt="..."
           />
+          </a>
           <div className="card-body">
             <h5 className="card-title">Event Organiser</h5>
           
@@ -88,10 +103,12 @@ export default function Projects() {
           </div>
         </div>
         <div className="card">
+        <a href="https://github.com/theneoalpha/qrcodegen"  className="link">
           <img
             src={qrcode}
             alt="..."
           />
+          </a>
           <div className="card-body">
             <h5 className="card-title">Text to QR Code Generator</h5>
           
@@ -99,15 +116,22 @@ export default function Projects() {
             <FaGithub/> 
             </a>
             
+            <a href="https://theneoalpha.github.io/qrcodegen/"  className="link">
+            < FaLink/>
+            </a>
+           
+            
             <span className='techstack'>#HTML , #JavaScript</span>
           </div>
         </div>
 
         <div className="card">
+        <a href="https://github.com/theneoalpha/filesharing"  className="link">
           <img
             src={file}
             alt="..."
           />
+          </a>
           <div className="card-body">
             <h5 className="card-title">File Sharing - MERN-Stack </h5>
           
