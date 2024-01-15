@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b54f67da.css",
-    "main.js": "/static/js/main.360706cc.js",
-    "static/js/787.0e0ce24c.chunk.js": "/static/js/787.0e0ce24c.chunk.js",
+    "main.css": "/static/css/main.9a91350d.css",
+    "main.js": "/static/js/main.9116ff36.js",
+    "static/js/787.7604b81c.chunk.js": "/static/js/787.7604b81c.chunk.js",
     "static/media/event.png": "/static/media/event.7cf844e162aa65234b45.png",
     "static/media/qrcode.png": "/static/media/qrcode.9a3968ad627cd28ee99c.png",
     "static/media/file.png": "/static/media/file.9c54ddd655e27aaf8b30.png",
@@ -10,14 +10,15 @@
     "static/media/carbon.png": "/static/media/carbon.0594a5e0661185281682.png",
     "static/media/bear-recogniser.jpg": "/static/media/bear-recogniser.bef258b541d6a4dce636.jpg",
     "static/media/about.jpg": "/static/media/about.6e9d3783def79f9d7a2d.jpg",
+    "static/media/thankyou.svg": "/static/media/thankyou.7646122c161657c5651870ecc9c564b7.svg",
     "static/media/boy.svg": "/static/media/boy.7d6720e159d4191316914e61b0537218.svg",
     "index.html": "/index.html",
-    "main.b54f67da.css.map": "/static/css/main.b54f67da.css.map",
-    "main.360706cc.js.map": "/static/js/main.360706cc.js.map",
-    "787.0e0ce24c.chunk.js.map": "/static/js/787.0e0ce24c.chunk.js.map"
+    "main.9a91350d.css.map": "/static/css/main.9a91350d.css.map",
+    "main.9116ff36.js.map": "/static/js/main.9116ff36.js.map",
+    "787.7604b81c.chunk.js.map": "/static/js/787.7604b81c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b54f67da.css",
-    "static/js/main.360706cc.js"
+    "static/css/main.9a91350d.css",
+    "static/js/main.9116ff36.js"
   ]
 }
