@@ -36,8 +36,8 @@ router.post("/contact", async (req, res) => {
     const saveMethod = await user.save();
     if (saveMethod) {
        
-      res.status(201).json({ message: "User registered successfully" });
-      
+      //res.status(201).json({ message: "User registered successfully" });
+      return res.redirect("/thankyou");
     
 
 
