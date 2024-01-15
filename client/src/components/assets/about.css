@@ -252,7 +252,7 @@ span {
   flex-direction: column;
   width: 650px;
 }
-form input,
+/* form input,
 textarea {
   padding: 15px;
   border-radius: 0.5rem;
@@ -262,7 +262,7 @@ textarea {
   background: hsla(260, 100%, 44%, 0.1);
   margin-bottom: 1rem;
   color: var(--text-color);
-}
+} */
 form input::placeholder,
 textarea::placeholder {
   color: var(--text-color);

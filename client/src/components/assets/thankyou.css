@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mb-4{
+    height: 80vh;
+}
+.thankyou{
+    background-color: white;
+    
+    width: 80%;
+    display: block;
+    margin: 4rem auto;
+    border-radius: 3rem;  
+    box-shadow: 0 20px 25px -5px rgba(0 0 0 / .10),
+    0 10px 10px -5px rgba(0 0 0 / .04);
+}
+.form-title{
+    color: purple;
+    margin-top: 3rem;
+    text-align: center;
+}
+.form-group input{
+    border-radius: 4px;
+    border-style: none;margin: 1rem;
+
+    
+}
+.submit{
+    background-color: rgb(173, 80, 173);
+    width: 6rem;
+    margin: auto;
+    box-shadow: 0 40px 35px -5px rgba(0 0 0 / .10),
+    0 10px 10px -5px rgba(0 0 0 / .04);
+}
+.contact-form{
+    display: grid;
+    place-items: center;
+    width: 50%;
+}
+.thankyou-content{
+    display: flex;
+    flex-direction: row;
+}
+.thankyou-content h4{
+    margin-top: 3rem;
+}
+.thankyou-content h6{
+    text-align: right;
+}
+
+.thankyou-content img{
+    width: 40%;
+    margin: 3rem;
+   
+}
+.contactpage-form{
+    top: 0px;
+  position: relative;
+}
+@media screen and (max-width: 768px){
+    .thankyou-content{
+        
+        flex-direction: column;
+    }
+    .thankyou-content img {
+        width: 50%;
+    margin: none;
+    
+    }
+       
+}
