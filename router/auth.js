@@ -28,7 +28,7 @@ router.post("/contact", async (req, res) => {
     const saveMethod = await user.save();
     if (saveMethod) {
       // Redirect to the thank-you page
-      return res.redirect("/thankyou");
+      return res.redirect("/thank-you");
     } else {
       return res.status(500).json({ message: "Failed to register" });
     }
