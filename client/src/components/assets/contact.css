@@ -28,6 +28,11 @@
 
     
 }
+.form-group textarea {
+    width: 20rem;
+    height: 9rem;
+    resize: none;
+}
 .submit{
     background-color: rgb(173, 80, 173);
     width: 6rem;
@@ -53,15 +58,29 @@
     top: 0px;
   position: relative;
 }
+.connect{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.connect a{
+    color: purple;
+    margin-right: 2rem;
+   
+}
 @media screen and (max-width: 768px){
     .contact-content{
-        
+        align-items: center;
         flex-direction: column;
     }
     .contact-content img {
-        width: 50%;
-    margin: none;
+        width: 20%;
+    margin: 0;
     
+    }
+    .form-group textarea {
+        width: 12rem;
+        height: 9rem;
+        resize: none;
     }
        
 }
