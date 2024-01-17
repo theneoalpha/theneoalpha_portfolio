@@ -624,6 +624,6 @@ nav ul li{
         margin-top: 20vh;
     }
   }
-  @media  screen and (max-width:370px) {.image{right: -7.5rem; top: -24vh;}}
+  @media  screen and (max-width:370px) {.image{right: -7.5rem; top: -16vh;}}
   
   
