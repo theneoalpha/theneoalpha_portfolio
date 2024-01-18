@@ -4,7 +4,6 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 require("../db/conn");
-
 const User = require("../model/userSchema");
 
 router.use(express.json());
