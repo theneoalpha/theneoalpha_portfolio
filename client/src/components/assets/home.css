@@ -570,8 +570,8 @@ nav ul li{
 }
 @media  screen and (max-width:425px) and (min-width:400px){
     .image {
-        top: -27vh;
-        right: -10.8rem;
+        right: -10.1rem;
+        top: -19vh;
     }
 }
   @media  screen and (max-width:417px) and (min-width:410px){.skilllist { height: 404px;}}@media  screen and (max-width:413px){#menu{width: 422;}.skilllist {height: 416px;}}@media  screen and (max-width:376px) and (min-width: 365px){.skilllist {height: 404px;}}@media  screen and (max-width:362px){.skilllist {height: 400px;}#menuToggle a {padding: -0.3000000000000007rem;}}  @media  screen and (max-width:394px) and (min-width:390px){.skilllist {height: 400px;}}
@@ -584,7 +584,7 @@ nav ul li{
         height: 135vh;
     }
     .image{
-        right: -8.4rem;
+        right: -9.8rem;
         width: 47%;
         height: 85%;
 
@@ -624,6 +624,6 @@ nav ul li{
         margin-top: 20vh;
     }
   }
-  @media  screen and (max-width:370px) {.image{right: -7.5rem; top: -24vh;}}
+  @media  screen and (max-width:370px) {.image{right: -7.5rem; top: -16vh;}}
   
   
