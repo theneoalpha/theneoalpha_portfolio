@@ -4,6 +4,7 @@ import "../components/assets/home.css";
 import Navbar2 from "./Navbar2";
 import Github from "./Github";
 import About  from './About';
+import image2 from "../images/about2.png";
 
 import { Link } from "react-router-dom";
 import Myskills from "./Myskills";

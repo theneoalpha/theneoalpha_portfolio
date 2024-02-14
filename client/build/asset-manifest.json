@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbc50e4d.css",
-    "main.js": "/static/js/main.7dd356c7.js",
+    "main.css": "/static/css/main.9f4cbfb8.css",
+    "main.js": "/static/js/main.fdfd29ef.js",
     "static/js/111.30e22a5f.chunk.js": "/static/js/111.30e22a5f.chunk.js",
     "static/media/event.png": "/static/media/event.7cf844e162aa65234b45.png",
     "static/media/qrcode.png": "/static/media/qrcode.9a3968ad627cd28ee99c.png",
     "static/media/file.png": "/static/media/file.9c54ddd655e27aaf8b30.png",
     "static/media/campus.png": "/static/media/campus.31c56a8b9394693e895e.png",
     "static/media/carbon.png": "/static/media/carbon.0594a5e0661185281682.png",
+    "static/media/about2.png": "/static/media/about2.ea28a44913bdda4a9405.png",
     "static/media/bear-recogniser.jpg": "/static/media/bear-recogniser.bef258b541d6a4dce636.jpg",
-    "static/media/about.jpg": "/static/media/about.6e9d3783def79f9d7a2d.jpg",
     "static/media/thankyou.svg": "/static/media/thankyou.7646122c161657c5651870ecc9c564b7.svg",
     "static/media/boy.svg": "/static/media/boy.7d6720e159d4191316914e61b0537218.svg",
     "index.html": "/index.html",
-    "main.dbc50e4d.css.map": "/static/css/main.dbc50e4d.css.map",
-    "main.7dd356c7.js.map": "/static/js/main.7dd356c7.js.map",
+    "main.9f4cbfb8.css.map": "/static/css/main.9f4cbfb8.css.map",
+    "main.fdfd29ef.js.map": "/static/js/main.fdfd29ef.js.map",
     "111.30e22a5f.chunk.js.map": "/static/js/111.30e22a5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbc50e4d.css",
-    "static/js/main.7dd356c7.js"
+    "static/css/main.9f4cbfb8.css",
+    "static/js/main.fdfd29ef.js"
   ]
 }
