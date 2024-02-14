@@ -20,8 +20,6 @@ const PORT = process.env.PORT || 8000;
 //     app.use(express.static("client/build"));
 // }
 
-
-
 //Lets try it
 // if(process.env.NODE.ENV === 'production') {
 //     app.use(express.static(path.join(__dirname, 'client', 'build')));
