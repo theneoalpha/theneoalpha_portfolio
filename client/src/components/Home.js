@@ -24,7 +24,7 @@ export default function Home() {
           <Link className="nav-link" to="/project">See My Projects</Link>
         </ul>
 
-        <div className="image">
+        {/* <div className="image">
           <img
             src="https://blogger.googleusercontent.com/img/a/AVvXsEiOV8rx7GJda1OztM911FFfCdJUNQCToY6f7-sTJWnUX7B9fpXjaMrlCc4goqgyWcG1tV12z4I6AU0QIBO5q7gdGNozV_RavQ8FkXvExVqNZqVOvW-629jZ_3RKTwNTKNY7aOWKW-_kJcz5_kSHoTrSiJVF4hLL7SJFu_uNbh9zJ2B1ml44bc3KB3oi"
             alt="shape"
@@ -35,7 +35,7 @@ export default function Home() {
             alt="boy"
             className="boy"
           />
-        </div>
+        </div> */}
       </div>
       <hr/>
      <Myskills/>
