@@ -5,6 +5,7 @@ import "../components/assets/contact.css";
 import Footer from "./Footer";
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { useNavigate } from "react-router-dom";
 
 export default function Contact() {
   const [user, setUser] = useState({
@@ -19,7 +20,7 @@ export default function Contact() {
     const { name, value } = e.target;
     setUser({ ...user, [name]: value });
   };
-
+const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -46,6 +47,7 @@ export default function Contact() {
         console.log("Invalid Message");
       } else {
         window.alert("Message Sent");
+        navigate('/thankyou');
         console.log("Message Sent");
       }
     } catch (error) {
